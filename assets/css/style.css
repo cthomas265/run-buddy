@@ -18,7 +18,6 @@ header h1 {
     margin: 0;
     display: inline;
 }
-
 header a {
     text-decoration: none;
     color: #fce138
@@ -50,7 +49,6 @@ footer div {
     line-height:1.5;
     text-align: right;
 }
-
 footer a {
     color: #024e76;
 }
@@ -63,15 +61,12 @@ footer a {
     background-position: center;
     position: relative;
 }
-/* Hero Style End*/
-
 .hero-form {
     background: #fce138;
     padding: 20px;
     width: 500px;
     color: #024e76;
     }
-
 .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
@@ -89,16 +84,13 @@ h3 {
 .hero-form {
     margin: 5px 0 15px 0;
 }
-
 .hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
-
 .hero-form p{
     margin: 5px 0 15px 0;
 }
-
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -121,23 +113,13 @@ h3 {
 }
 /* HERO STYLES END*/
 
+/* WHAT WE DO  START*/
 .intro {
     text-align: center;
 }
-
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138
-}
-
 .intro h2 {
     display: inline-block;
 }
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -146,4 +128,45 @@ h3 {
 }
 .intro p {
     margin: 0 auto;
+}
+/* WHAT WE DO END*/
+
+/* WHAT YOU DO START*/
+.steps {text-align: center;
+    background:#fce138;
+}
+
+.section-title {
+    font-size: 55px;
+    color:#024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color:#39a6b2;
+}
+.primary-border {
+    border-color:#fce138
+}
+.secondary-border {
+    border-color:#39a6b2;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+.steps h3 {
+    color:#024e76;
+    font-size: 46px;
+    margin-top:10px;
+}
+.steps p {
+    color:#39a6b2;
+    font-size: 23px
+}
+.steps span {
+    font-size: 38px;
 }
