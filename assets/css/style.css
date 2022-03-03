@@ -67,18 +67,10 @@ section {
 /* homepage hero */
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: auto;
+    height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
-    text-align: center;
-    margin-bottom: auto;
-}
-
-/* secondary page hero */
-.hero-secondary {
-    background-color: black;
-    color: red;
 }
 
 .hero-form {
@@ -125,9 +117,7 @@ section {
 .intro {
     text-align: center;
 }
-.intro h2 {
-    display: inline-block;
-}
+
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -165,12 +155,13 @@ section {
 
 .section-title {
     font-size: 55px;
-    color:#024e76;
+    color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
+    display: inline-block;
     border-bottom: 3px solid;
-    display: inline-block; 
-}
+  }
+
 .primary-border {
     border-color:#fce138
 
@@ -179,9 +170,10 @@ section {
     border-color:#39a6b2;
 }
 
-.trainer {
+.trainers {
     text-align: center;
 }
+
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -189,10 +181,12 @@ section {
     color: #fce138;
     overflow: auto;
 }
+
 .trainer img {
     width: 35%;
     float: left;
 }
+
 .trainer-bio {
     padding: 35px;
     float: left;
